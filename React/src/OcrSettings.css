@@ -1,0 +1,78 @@
+.ocr-settings-row {
+  display: flex;
+  gap: 32px;
+  margin: 32px auto 0 auto;
+  max-width: 1200px;
+}
+.ocr-settings-box {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border: 1px solid #e0e0e0;
+  flex: 1.2;
+  padding: 24px 28px 18px 28px;
+  min-width: 340px;
+}
+.ocr-settings-title {
+  font-size: 1.18em;
+  font-weight: 600;
+  margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  color: #222;
+}
+.ocr-settings-group {
+  margin-bottom: 18px;
+}
+.ocr-settings-label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  color: #222;
+}
+.ocr-settings-desc {
+  font-size: 1em;
+  color: #444;
+  margin-bottom: 8px;
+}
+.ocr-settings-select {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1.08em;
+  margin-bottom: 6px;
+}
+.ocr-pdf-box {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border: 1px solid #e0e0e0;
+  flex: 1;
+  padding: 24px 28px 18px 28px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.ocr-pdf-title {
+  font-size: 1.18em;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #222;
+}
+.ocr-pdf-desc {
+  font-size: 1.08em;
+  color: #444;
+}
+@media (max-width: 900px) {
+  .ocr-settings-row {
+    flex-direction: column;
+    gap: 18px;
+    max-width: 98vw;
+  }
+  .ocr-settings-box, .ocr-pdf-box {
+    min-width: unset;
+    width: 100%;
+    padding: 18px 10px;
+  }
+}

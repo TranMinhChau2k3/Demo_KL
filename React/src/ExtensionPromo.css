@@ -1,0 +1,112 @@
+.extension-promo-section {
+  margin: 48px auto 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+.extension-row {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 18px;
+}
+.extension-box {
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border: 1px solid #e0e0e0;
+  padding: 18px 32px 14px 32px;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.extension-logo {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+}
+.extension-title {
+  font-size: 1.08em;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.extension-rating {
+  color: #ff9800;
+  font-size: 1em;
+  font-weight: 500;
+}
+.star {
+  color: #ff9800;
+  font-size: 1.15em;
+  margin-right: 2px;
+}
+.extension-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.bookmark-btn {
+  background: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.08em;
+  font-weight: 500;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+.like-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.08em;
+  font-weight: 500;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+.share-btn {
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.08em;
+  font-weight: 500;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+.tweet-btn {
+  background: #03a9f4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.08em;
+  font-weight: 500;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+.extension-rating-summary {
+  margin-top: 18px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  border: 1px solid #e0e0e0;
+  padding: 18px 0 10px 0;
+}
+.rating-title {
+  font-size: 1.18em;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+}
+.rating-desc {
+  font-size: 1.08em;
+  color: #444;
+}
+@media (max-width: 900px) {
+  .extension-row {
+    flex-direction: column;
+    gap: 18px;
+  }
+}

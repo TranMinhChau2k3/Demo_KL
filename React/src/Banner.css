@@ -1,0 +1,78 @@
+.banner-ocr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #40762b;
+  color: #fff;
+  padding: 48px 0 32px 0;
+  min-height: 320px;
+}
+.banner-left {
+  flex: 1.2;
+  padding-left: 80px;
+}
+.banner-left h1 {
+  font-size: 2.8em;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.banner-left p {
+  font-size: 1.25em;
+  line-height: 1.6;
+  max-width: 520px;
+}
+.banner-right {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.convert-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 32px;
+}
+.convert-label {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.convert-select {
+  font-size: 1.1em;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: none;
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.convert-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 12px;
+}
+.icon-file {
+  background: #5fae4d;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 12px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  min-width: 60px;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .banner-ocr {
+    flex-direction: column;
+    padding: 32px 0;
+  }
+  .banner-left, .banner-right {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
